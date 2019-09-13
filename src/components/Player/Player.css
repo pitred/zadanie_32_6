@@ -1,0 +1,35 @@
+.Player {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Player > span {
+    padding: 10px 15px;
+    border: 1px solid #000;
+    margin: 3px;
+}
+
+.Player__name {
+    width: 60%;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Player__score {
+    font-weight: 800;
+}
+
+.Player__button {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.2rem;
+    background-color: blue;
+}
+
+.Player__remove {
+    cursor: pointer;
+    font-weight: 800;
+    background-color: red;
+}

@@ -1,0 +1,23 @@
+.AddPlayer {
+    min-width: 400px;
+    max-width: 80vw;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.AddPlayer__input {
+    width: 70%;
+    height: 25px;
+    border: 2px solid yellow;
+    padding: 2px 6px;
+}
+
+.AddPlayer__submit {
+    width: 30%;
+    height: 33px;
+    background-color: lightgreen;
+    font-weight: bold;
+    cursor: pointer;
+}

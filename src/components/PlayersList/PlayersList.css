@@ -1,0 +1,11 @@
+.PlayersList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    min-width: 400px;
+    max-width: 80vw;
+    border: 1px solid #000;
+    padding: 10px;
+}
